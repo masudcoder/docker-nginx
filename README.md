@@ -17,13 +17,14 @@ BROWSE nginx
 http://localhost:8089
 
 ```
-```
 How To access into docker Container
 ```
+
 # after docker run (docker run -p 8089:80 masud/nginx) you can see running process by the command below
 - docker ps
 - docker exec -it <container name> /bin/bash
 
+```
 what is nginx
 ```
 
