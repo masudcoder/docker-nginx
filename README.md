@@ -20,10 +20,12 @@ http://localhost:8089
 How To access into docker container
 ```
 
- after docker run (docker run -p 8089:80 masud/nginx), open a new terminal and see running procees by the following command
+ after docker run (docker run -p 8089:80 masud/nginx), open a new terminal and see running procees by the following command 
  
 - docker ps
 - docker exec -it c62aa1e7d4a7  /bin/bash
+
+c62aa1e7d4a7 is your container Id
 
 ```
 what is nginx
