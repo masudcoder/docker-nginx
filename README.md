@@ -23,7 +23,7 @@ How To access into docker container
  after docker run (docker run -p 8089:80 masud/nginx), open a new terminal and see running procees by the following command
  
 - docker ps
-- docker exec -it <container name> /bin/bash
+- docker exec -it c62aa1e7d4a7  /bin/bash
 
 ```
 what is nginx
