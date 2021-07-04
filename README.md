@@ -8,7 +8,7 @@ FROM nginx
 ```
 Docker Build and Run
 ```
-- sudo docker buid -t masud/nginx
+- sudo docker buid -t masud/nginx .
 - docker run -p 8089:80 masud/nginx
 
 ```
