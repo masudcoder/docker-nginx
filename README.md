@@ -1,4 +1,6 @@
 # docker-nginx
+#get nginx image from dockerhub
+
 ```bash
 FROM nginx
 ```
